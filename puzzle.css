@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #0c1014;
+    background: linear-gradient(90deg,rgb(46, 57, 59, 0.8), rgb(232, 67,147,1.0));
+}
+
+#title {
+    height: 150px;
+    width: 400px;
+    padding: 2rem;
+}
+#title:hover{
+    transform: scale(0.9);
+}
+
+#board1 {
+    width: 480px;
+    height: 480px;
+    background-color: lightblue;
+    border: 10px solid #0c1114;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+#board1 img {
+    width: 118px;
+    height: 118px;
+    border: 1px solid #0f1419;
+}
